@@ -1,9 +1,11 @@
 body{
-    color: aqua;
+    text-align: center;
+    color: black;
 }
 
 h1{
-    color: cornflowerblue;
+    text-align: center;
+    color: black;
 }
 
 .s-font.active{
@@ -13,6 +15,19 @@ h1{
     color: cornflowerblue;
 }
 
+ul{
+    list-style:none;
+}
 .hidden{
     display:none
+}
+footer{
+    text-align: center;
+    bottom:0;
+    position: absolute;
+
+}
+
+#quote{
+    color: white;
 }
